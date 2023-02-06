@@ -89,6 +89,6 @@ radio.onReceivedValue(function (name: string, value: number) {
 
 input.onButtonPressed(Button.A, function () {
     basic.clearScreen()
-
-
+    done = false
+    start = false
 })
